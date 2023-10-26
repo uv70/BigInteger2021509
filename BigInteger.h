@@ -24,6 +24,7 @@ void result (struct node **head, int data);
 struct node* convertList (char *str);
 struct node* newNode (int data);
 struct node* clean(struct node *head);
+struct BigInteger initialize (char *s);
 struct BigInteger add ( struct BigInteger A, struct BigInteger B);
 struct BigInteger sub ( struct BigInteger A, struct BigInteger B);
 struct BigInteger mul (struct BigInteger A, struct BigInteger B);
